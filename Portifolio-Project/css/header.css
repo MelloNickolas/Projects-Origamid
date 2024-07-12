@@ -1,7 +1,7 @@
 .header {
   max-width: 1200px;
   padding: 40px 20px;
-  margin: 0 auto;
+  margin: 0 auto; /*Esse margin serve para centralizar o contúdo com max-width*/
   display: flex;
   justify-content: space-between;
   align-items: center;

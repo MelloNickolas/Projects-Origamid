@@ -4,9 +4,9 @@
 }
 
 .formacao-container {
-  max-width: 1200px;
+  max-width: 1200px; 
   padding: 120px 20px;
-  margin: 0 auto;
+  margin: 0 auto; /*Esse margin serve para centralizar o contúdo com max-width*/
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 100px;
@@ -49,7 +49,7 @@
 }
 
 .faculdade {
-  flex: 1;
+  flex: 1;/*Serve para quando eles estarem no display flex, ficarem do mesmo tamanho*/
   background: #000000;
   padding: 20px;
   border-radius: 4px;
@@ -65,7 +65,7 @@
 }
 
 .faculdade-curso {
-  flex: 1;
+  flex: 1; /*aqui ele está falando para crescer o maximo possível*/
   font-size: 1.125rem;
   line-height: 1.4;
   margin-bottom: 40px;

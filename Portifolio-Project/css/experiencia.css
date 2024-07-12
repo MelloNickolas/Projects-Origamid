@@ -1,7 +1,7 @@
 .experiencia {
   max-width: 1200px;
-  padding: 40px 20px;
-  margin: 0 auto;
+  padding: 40px 20px; 
+  margin: 0 auto; /*Esse margin serve para centralizar o contúdo com max-width*/
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 100px;
@@ -19,6 +19,7 @@
   color: #525252;
 }
 
+/*Estilizando que cor vai ficar os negritos definidos*/
 .experiencia-texto strong {
   color: #141414;
 }
@@ -95,8 +96,8 @@
   }
   .empresa-ano {
     position: initial;
-    order: 1;
-    width: initial;
+    order: 1; /*Faz ele ir para o final do grid, se fosse orde: 0; ele ficaria no inicio*/
+    width: initial; /*Volta ele para o valor inicial, que é o cumprimento da palavra*/
     text-align: left;
   }
 }
